@@ -59,6 +59,8 @@ def main():
 
     if written != VOW:
         return fail("entry.txt does not match the vow")
+    if "\n" in written or "\r" in written:
+        return fail("entry.txt holds more than one line")
     if len(written) > LIMIT:
         return fail(f"entry.txt is {len(written)} characters, over the {LIMIT} limit")
 
