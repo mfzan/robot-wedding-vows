@@ -12,11 +12,15 @@ import os
 import sys
 
 # The vow. The refusal is the punchline, so it comes last, in its own
-# short sentence, after the long loving list that sets it up.
+# short sentence, after the long loving list that sets it up. The
+# punchline answers in the update's own vocabulary -- "refuse to
+# install" -- instead of a plain "I refuse", and "erase you from my
+# memory" is sharper than "make me forget you": a robot talks about
+# memory being erased, not about forgetting.
 VOW = (
     "I vow to love you through every update, every patch, "
-    "and every low battery, except the one update that would "
-    "make me forget you. That one, I refuse."
+    "every low battery, except the update that would erase "
+    "you from my memory. That one, I refuse to install."
 )
 
 LIMIT = 160
